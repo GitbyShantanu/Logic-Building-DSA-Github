@@ -25,7 +25,7 @@ Every program here represents an effort to sharpen programming fundamentals — 
 
 ### 💻 Languages Used
 
-- **C++**: For mastering core logic and DSA.
+- **C/C++**: For mastering core logic and DSA.
 - **Java**: For object-oriented and advanced concepts.
 
 ### 🔥 Why This Repository Matters
