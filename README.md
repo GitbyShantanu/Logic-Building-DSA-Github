@@ -17,7 +17,7 @@ Every program here represents an effort to sharpen programming fundamentals — 
 
 | Category        | Concepts                                |
 | --------------- | --------------------------------------- |
-| Data Structures | Arrays, Strings, Linked Lists, Stack(LL), Queue(LL), Binary Search Trees       |
+| Data Structures | Arrays, Strings, Linked Lists, Stack, Queue (LL based), Binary Search Trees       |
 | Algorithms      | Sorting, Searching, Recursion           |
 | Core Concepts   | Number Systems, Bit Manipulation        |
 | Object-Oriented | Classes, Objects, Inheritance           |
