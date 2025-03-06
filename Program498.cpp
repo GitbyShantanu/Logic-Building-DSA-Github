@@ -49,7 +49,7 @@ class Array
             {
                 for(j = 0; j < iSize-i-1; j++)
                 {
-                    if(Arr[j] < Arr[j+1])
+                    if(Arr[j] < Arr[j+1])   //Descending
                     {
                         iTemp = Arr[j];
                         Arr[j] = Arr[j+1];

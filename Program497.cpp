@@ -44,12 +44,14 @@ class Array
         {
             int iTemp = 0;
             int i = 0, j = 0;
-
-            for(i = 0; i < iSize; i++)
+            
+            //elements will get to last index upto n-1 times and then sorted.
+            for(i = 0; i < iSize; i++)     
             {
-                for(j = 0; j < iSize-i-1; j++)
+                //max last element will be sorted for i th iteration.so i-1.
+                for(j = 0; j < iSize-i-1; j++)  
                 {
-                    if(Arr[j] > Arr[j+1])
+                    if(Arr[j] > Arr[j+1])   //Ascending
                     {
                         iTemp = Arr[j];
                         Arr[j] = Arr[j+1];

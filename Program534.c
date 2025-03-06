@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>   //copy of 533
 #include<stdlib.h>
 
 struct Node
@@ -51,7 +51,6 @@ int MiddleElement(PNODE Head)
         Teacher = Teacher -> next->next;
         Student = Student -> next;
      }
-
      return(Student->data);
 }
 

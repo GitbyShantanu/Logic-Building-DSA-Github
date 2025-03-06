@@ -58,7 +58,7 @@ class DBMS
     }
 
     // Display
-    // select * from student
+    // select * from student;
     public void SelectStarFrom()
     {
         System.out.println("Data from the student table is : ");

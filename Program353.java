@@ -1,14 +1,15 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 class Program353
 {
     public static void main(String arg[]) throws Exception
     {
+        Scanner sobj = new Scanner(System.in);
+        
         byte Header[] = new byte[100];
         int FileSize = 0;
         String str = null;
-        Scanner sobj = new Scanner(System.in);
         int iRet = 0;
 
         System.out.println("Enter the name of packed file that you want to unpack : ");

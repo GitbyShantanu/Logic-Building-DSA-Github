@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 class Program334
 {
@@ -8,11 +7,9 @@ class Program334
         Scanner sobj = new Scanner(System.in);
 
         String str = "     Hello     ";
-
         System.out.println("Length of str is : "+str.length());
 
         str = str.trim();
-
         System.out.println("Length of str is : "+str.length());
     }
 }

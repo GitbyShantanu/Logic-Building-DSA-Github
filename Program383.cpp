@@ -260,7 +260,5 @@ int main()
     cout<<"LinkedList of Characters : "<<"\n";
     cobj.Display();
 
-    
-
     return 0;
 }

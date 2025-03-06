@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 class Program343
 {
@@ -10,15 +9,12 @@ class Program343
         String str = sobj.nextLine();
 
         str = str.trim();
-
         System.out.println("After trim : "+str);
 
         str = str.replaceAll("\\s+"," ");
-
         System.out.println("After replaceall : "+ str);
 
         String words[] = str.split(" ");
-
         System.out.println("Number of words in the sentance are : "+words.length);
 
         for(int i = 0; i < words.length; i++)

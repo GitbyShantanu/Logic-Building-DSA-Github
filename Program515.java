@@ -19,6 +19,5 @@ class Program515
         {
             System.out.println(s);
         }
-
     }
 }

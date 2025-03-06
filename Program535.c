@@ -75,7 +75,6 @@ int main()
     Display(First);
 
     Reverse(&First);
-
     Display(First);
 
     return 0;

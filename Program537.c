@@ -76,7 +76,6 @@ int main()
     InsertFirst(&First, 21);
     InsertFirst(&First, 11);
 
-
     ThirdNode = First;
     LastNode = First;
     
@@ -84,7 +83,7 @@ int main()
     LastNode = LastNode->next->next->next->next;
     LastNode->next = ThirdNode;
 
-    bRet = LoocpCheck(First);
+    bRet = LoopCheck(First);
 
     if(bRet == true)
     {

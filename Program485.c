@@ -146,7 +146,6 @@ int main()
     Inorder(first);
 
     iRet = Count(first);
-
     printf("Number of elements are : %d\n",iRet);
 
     return 0;

@@ -138,7 +138,7 @@ int main()
     bRet = Search(first,iValue);
     if(bRet == true)
     {
-        printf("Element is preasent\n");
+        printf("Element is present\n");
     }
     else
     {

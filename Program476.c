@@ -41,7 +41,6 @@ void DisplayR(PNODE Head)
 int CountR(PNODE Head)
 {
     static int iCnt = 0;
-
     if(Head != NULL)
     {
         iCnt++;

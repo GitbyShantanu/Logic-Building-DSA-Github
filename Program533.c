@@ -51,7 +51,6 @@ int MiddleElement(PNODE Head)
         Teacher = Teacher -> next->next;
         Student = Student -> next;
      }
-
      return(Student->data);
 }
 

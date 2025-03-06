@@ -83,7 +83,7 @@ int main()
 
     aobj->BubbleSort();
 
-    aobj->Display();
+    //aobj->Display();
 
     delete aobj;
 

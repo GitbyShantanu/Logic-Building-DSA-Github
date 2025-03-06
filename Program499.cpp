@@ -54,7 +54,7 @@ class Array
                     if(Arr[j] < Arr[min_index])
                     {
                         min_index = j;
-                    }
+                    }   
                 }
                 iTemp = Arr[i];
                 Arr[i] = Arr[min_index];
